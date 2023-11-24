@@ -2,6 +2,13 @@
 
 # Secure Geekbench-6.1.0 installer
 # https://github.com/SheikhTalal/geekbench6
+
+# Check if the script is run as the superuser
+if [ "$EUID" -ne 0 ]; then
+    echo "This script requires superuser privileges. Please run as root or using sudo."
+    exit 1
+fi
+
 # Function to check and install packages on Debian-based systems
 install_on_debian() {
     sudo apt-get update
