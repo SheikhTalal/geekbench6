@@ -1,4 +1,4 @@
-# geekbench6
+# GeekBench 6
 ## GeekBench 6
 Run the following command:
 
