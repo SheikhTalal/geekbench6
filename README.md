@@ -30,5 +30,3 @@ Once the installation is complete, Geekbench will run, and you will be able to v
 
 - Ensure that you have a working internet connection during the installation process, as the script downloads necessary files.
 - The script may require superuser privileges to install Geekbench. If prompted, enter your password to proceed.
-
-**Note:** Please be cautious when executing scripts from the internet. Always review the script content and the source from where it is obtained to ensure it is from a trustworthy and reputable repository.
